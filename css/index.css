@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    height:100%;
 }
 
 .top-content {
@@ -147,7 +148,7 @@ footer nav a {
 header{
     height: 20%;
     width:100%;
-    margin: 25px 0;
+    margin: 20px 0;
 }
 
 .top_bar{
@@ -176,7 +177,7 @@ header nav a{
     background-position:center;
     background-repeat:no-repeat;
     height: 160px;
-    margin: 35px 0;
+    margin: 25px 0;
 }
 
 .box1{
@@ -208,4 +209,63 @@ header nav a{
 }
 .box10{
     background-color:dodgerblue;
+}
+
+/* About Page */
+.about_top{
+    margin-bottom: 10px;
+    padding: 0 20px 10px 20px;
+    border-bottom: 1px dashed black;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about_logo{
+    background-image:url("../img/jumbo-about.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 160px;
+    margin: 35px 0;
+}
+
+.about-mid {
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: row wrap;
+    justify-content: flex-start;
+}
+
+.about-mid .quad{
+    border-bottom:1px dashed black;
+    margin: 10px;
+    padding: 10px;
+    height: 450px;
+}
+
+.about-mid a{
+    border: 3px solid black;
+    padding: 10px 30px;
+    text-decoration:none;
+    color:black;
+    border-radius:10px;
+    margin: 10px 0;
+}
+.about-mid h3{
+    margin: 5px 0;
+    padding: 10px 0;
+}
+
+.about-mid p{
+    padding:10px 0 20px 0;
+    margin: 10px 0;
+}
+
+.about_bottom{
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
